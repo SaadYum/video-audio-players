@@ -110,7 +110,6 @@ export const AudioPlayer = ({
         preload="metadata"
         autoPlay={autoPlay}
         crossOrigin="anonymous"
-        loop={true}
       ></audio>
       <Visualizer audioRef={playerRef} isPlaying={isPlaying} />
       <div className="fk-audio-overlay">
